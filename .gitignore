@@ -1,0 +1,52 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# IDE / editor
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Build / packaging
+build/
+dist/
+*.egg-info/
+
+# Coverage
+.coverage
+htmlcov/
+
+# Temporary files
+*.tmp
+*.log
+
+# Local environment / secrets
+.env
+.env.*
+!.env.example
+
+# Generated solver files
+*.lp
+*.mps
+*.sol
+
+# Reminders
+# - Large/local datasets may be ignored individually later.
+# - Do not blanket-ignore data/ because small reproducible datasets and 
+#   documented examples belong in version control.
